@@ -1,22 +1,7 @@
 version = 1
 
 [[analyzers]]
-name = "secrets"
-
-[[analyzers]]
-name = "docker"
-
-[[analyzers]]
-name = "shell"
-
-[[analyzers]]
-name = "javascript"
-
-  [analyzers.meta]
-  plugins = ["react"]
-
-[[analyzers]]
 name = "go"
 
   [analyzers.meta]
-  import_root = "go.signoz.io/signoz"
+  import_root = "github.com/jai-deepsource/signoz"
